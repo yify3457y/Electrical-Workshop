@@ -81,6 +81,18 @@ p, li {
 
 
 
+.logo_t {
+	margin-top: 2em;
+	width: calc(var(--font_large)*5);
+}
+.logo_t img {
+	user-select: none;
+	pointer-events: none;
+	border-radius: 3.5px;
+}
+
+
+
 
 .button_s1 {
 	align-items: center;
