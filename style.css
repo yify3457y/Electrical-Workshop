@@ -281,6 +281,14 @@ p, li {
 
 
 
+.h_info {
+	height: 0px;
+	overflow: hidden;
+}
+
+
+
+
 
 .f_c {
 	margin-top: 50px;
