@@ -86,6 +86,7 @@ p, li {
 	width: calc(var(--font_large)*5);
 }
 .logo_t img {
+	box-shadow: none;
 	user-select: none;
 	pointer-events: none;
 	border-radius: 3.5px;
