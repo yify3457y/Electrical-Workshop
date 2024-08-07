@@ -154,6 +154,7 @@ p, li {
 
 
 .services {
+	display: none;
 	background-color: #f9f9f9;
 }
 .services>div:nth-child(2) {
@@ -375,3 +376,7 @@ footer {
 
 
 
+body > div:nth-child(8) > div.limit_width.loc_and_contact > div > div:nth-child(3) > div.links > a:nth-child(1) > div {
+	padding: 9px 16px 5px 34px;
+    margin-left: 12px;
+}
