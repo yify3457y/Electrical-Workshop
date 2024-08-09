@@ -20,9 +20,9 @@ body {
 	margin: 0px;
 }
 body>div {
-      display: grid;
-      justify-content: center;
-      align-items: center;
+	  display: grid;
+	  justify-content: center;
+	  align-items: center;
 }
 .limit_width {
 	display: block;
@@ -376,7 +376,125 @@ footer {
 
 
 
+
+
+
+
+
+
+/* General styles for the list */
+.social-links ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.social-links ul li {
+	margin: 0 10px;
+}
+
+.social-links ul li a {
+	text-decoration: none;
+	font-size: 24px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Facebook */
+.social-links ul li a.facebook {
+	background-color: #3b5998;
+	color: #fff;
+}
+.social-links ul li a.facebook:hover {
+	background-color: #2d4373;
+}
+
+/* Twitter */
+.social-links ul li a.twitter {
+	background-color: #1DA1F2;
+	color: #fff;
+}
+.social-links ul li a.twitter:hover {
+	background-color: #0d8bec;
+}
+
+/* Instagram */
+.social-links ul li a.instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	color: #fff;
+}
+.social-links ul li a.instagram:hover {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+/* LinkedIn */
+.social-links ul li a.linkedin {
+	background-color: #0077b5;
+	color: #fff;
+}
+.social-links ul li a.linkedin:hover {
+	background-color: #005582;
+}
+
+/* YouTube */
+.social-links ul li a.youtube {
+	background-color: #FF0000;
+	color: #fff;
+}
+.social-links ul li a.youtube:hover {
+	background-color: #cc0000;
+}
+
+/* WhatsApp */
+.social-links ul li a.whatsapp {
+	background-color: #25D366;
+	color: #fff;
+}
+.social-links ul li a.whatsapp:hover {
+	background-color: #1ebe56;
+}
+
+/* TikTok */
+.social-links ul li a.tiktok {
+	background-color: #000000;
+	color: #fff;
+	position: relative;
+}
+
+.social-links ul li a.tiktok:hover {
+	background-color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body > div:nth-child(8) > div.limit_width.loc_and_contact > div > div:nth-child(3) > div.links > a:nth-child(1) > div {
 	padding: 9px 16px 5px 34px;
-    margin-left: 12px;
+	margin-left: 12px;
 }
+
+
